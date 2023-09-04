@@ -6,7 +6,7 @@ const fs = require("fs");
 const currentDirectory = process.cwd();
 
 // Construct the path to the .env file relative to the current directory
-const dotenvPath = path.join(currentDirectory, "backend", "utills", ".env");
+const dotenvPath = path.join(currentDirectory, ".env");
 
 // Check if the .env file exists
 if (!fs.existsSync(dotenvPath)) {
